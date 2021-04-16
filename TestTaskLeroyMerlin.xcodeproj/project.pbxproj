@@ -10,7 +10,6 @@
 		843B1C542629B806007C7C04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B1C532629B806007C7C04 /* AppDelegate.swift */; };
 		843B1C562629B806007C7C04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B1C552629B806007C7C04 /* SceneDelegate.swift */; };
 		843B1C582629B806007C7C04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B1C572629B806007C7C04 /* ViewController.swift */; };
-		843B1C5B2629B806007C7C04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843B1C592629B806007C7C04 /* Main.storyboard */; };
 		843B1C5D2629B80D007C7C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843B1C5C2629B80D007C7C04 /* Assets.xcassets */; };
 		843B1C602629B80D007C7C04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843B1C5E2629B80D007C7C04 /* LaunchScreen.storyboard */; };
 		843B1C692629B891007C7C04 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 843B1C682629B891007C7C04 /* .gitignore */; };
@@ -21,7 +20,6 @@
 		843B1C532629B806007C7C04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843B1C552629B806007C7C04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		843B1C572629B806007C7C04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		843B1C5A2629B806007C7C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		843B1C5C2629B80D007C7C04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843B1C5F2629B80D007C7C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843B1C612629B80D007C7C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,15 +57,46 @@
 		843B1C522629B806007C7C04 /* TestTaskLeroyMerlin */ = {
 			isa = PBXGroup;
 			children = (
-				843B1C532629B806007C7C04 /* AppDelegate.swift */,
-				843B1C552629B806007C7C04 /* SceneDelegate.swift */,
 				843B1C572629B806007C7C04 /* ViewController.swift */,
-				843B1C592629B806007C7C04 /* Main.storyboard */,
-				843B1C5C2629B80D007C7C04 /* Assets.xcassets */,
-				843B1C5E2629B80D007C7C04 /* LaunchScreen.storyboard */,
-				843B1C612629B80D007C7C04 /* Info.plist */,
+				843B1C6C2629BA15007C7C04 /* Application */,
+				843B1C6B2629B9F5007C7C04 /* Resource */,
 			);
 			path = TestTaskLeroyMerlin;
+			sourceTree = "<group>";
+		};
+		843B1C6B2629B9F5007C7C04 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				843B1C5C2629B80D007C7C04 /* Assets.xcassets */,
+				843B1C612629B80D007C7C04 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		843B1C6C2629BA15007C7C04 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				843B1C6E2629BA3D007C7C04 /* Controller */,
+				843B1C6D2629BA1C007C7C04 /* View */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		843B1C6D2629BA1C007C7C04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				843B1C5E2629B80D007C7C04 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		843B1C6E2629BA3D007C7C04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				843B1C552629B806007C7C04 /* SceneDelegate.swift */,
+				843B1C532629B806007C7C04 /* AppDelegate.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +159,6 @@
 				843B1C692629B891007C7C04 /* .gitignore in Resources */,
 				843B1C602629B80D007C7C04 /* LaunchScreen.storyboard in Resources */,
 				843B1C5D2629B80D007C7C04 /* Assets.xcassets in Resources */,
-				843B1C5B2629B806007C7C04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,14 +178,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		843B1C592629B806007C7C04 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				843B1C5A2629B806007C7C04 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		843B1C5E2629B80D007C7C04 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -220,7 +240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,7 +312,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PQ8675BM6;
-				INFOPLIST_FILE = TestTaskLeroyMerlin/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TestTaskLeroyMerlin/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PQ8675BM6;
-				INFOPLIST_FILE = TestTaskLeroyMerlin/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TestTaskLeroyMerlin/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
