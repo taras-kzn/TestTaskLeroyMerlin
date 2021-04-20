@@ -9,23 +9,43 @@
 /* Begin PBXBuildFile section */
 		843B1C542629B806007C7C04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B1C532629B806007C7C04 /* AppDelegate.swift */; };
 		843B1C562629B806007C7C04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B1C552629B806007C7C04 /* SceneDelegate.swift */; };
-		843B1C582629B806007C7C04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B1C572629B806007C7C04 /* ViewController.swift */; };
-		843B1C5B2629B806007C7C04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843B1C592629B806007C7C04 /* Main.storyboard */; };
+		843B1C582629B806007C7C04 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B1C572629B806007C7C04 /* TestViewController.swift */; };
 		843B1C5D2629B80D007C7C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843B1C5C2629B80D007C7C04 /* Assets.xcassets */; };
 		843B1C602629B80D007C7C04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843B1C5E2629B80D007C7C04 /* LaunchScreen.storyboard */; };
 		843B1C692629B891007C7C04 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 843B1C682629B891007C7C04 /* .gitignore */; };
+		843B1C7A2629BD2C007C7C04 /* MainTabBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B1C792629BD2C007C7C04 /* MainTabBarTableViewController.swift */; };
+		843B1C7F2629C152007C7C04 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B1C7E2629C152007C7C04 /* MainViewController.swift */; };
+		843B1C97262C8030007C7C04 /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B1C96262C8030007C7C04 /* SectionModel.swift */; };
+		843B1C9C262C8132007C7C04 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B1C9B262C8132007C7C04 /* ItemModel.swift */; };
+		843B1CA0262D6F6B007C7C04 /* BestPriceViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B1C9E262D6F6B007C7C04 /* BestPriceViewCell.swift */; };
+		843B1CA1262D6F6B007C7C04 /* BestPriceViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843B1C9F262D6F6B007C7C04 /* BestPriceViewCell.xib */; };
+		843B1CA7262D9CF0007C7C04 /* CatalogViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B1CA5262D9CF0007C7C04 /* CatalogViewCell.swift */; };
+		843B1CA8262D9CF0007C7C04 /* CatalogViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843B1CA6262D9CF0007C7C04 /* CatalogViewCell.xib */; };
+		843B1CAB262DA3F2007C7C04 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B1CAA262DA3F2007C7C04 /* SectionHeaderView.swift */; };
+		843B1CB4262E15FC007C7C04 /* SearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B1CB2262E15FC007C7C04 /* SearchCollectionViewCell.swift */; };
+		843B1CB5262E15FC007C7C04 /* SearchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843B1CB3262E15FC007C7C04 /* SearchCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		843B1C502629B806007C7C04 /* TestTaskLeroyMerlin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTaskLeroyMerlin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843B1C532629B806007C7C04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843B1C552629B806007C7C04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		843B1C572629B806007C7C04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		843B1C5A2629B806007C7C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		843B1C572629B806007C7C04 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		843B1C5C2629B80D007C7C04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		843B1C5F2629B80D007C7C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		843B1C612629B80D007C7C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		843B1C682629B891007C7C04 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		843B1C792629BD2C007C7C04 /* MainTabBarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarTableViewController.swift; sourceTree = "<group>"; };
+		843B1C7E2629C152007C7C04 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		843B1C96262C8030007C7C04 /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		843B1C9B262C8132007C7C04 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		843B1C9E262D6F6B007C7C04 /* BestPriceViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestPriceViewCell.swift; sourceTree = "<group>"; };
+		843B1C9F262D6F6B007C7C04 /* BestPriceViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BestPriceViewCell.xib; sourceTree = "<group>"; };
+		843B1CA5262D9CF0007C7C04 /* CatalogViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewCell.swift; sourceTree = "<group>"; };
+		843B1CA6262D9CF0007C7C04 /* CatalogViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CatalogViewCell.xib; sourceTree = "<group>"; };
+		843B1CAA262DA3F2007C7C04 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		843B1CB2262E15FC007C7C04 /* SearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		843B1CB3262E15FC007C7C04 /* SearchCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,15 +79,81 @@
 		843B1C522629B806007C7C04 /* TestTaskLeroyMerlin */ = {
 			isa = PBXGroup;
 			children = (
-				843B1C532629B806007C7C04 /* AppDelegate.swift */,
-				843B1C552629B806007C7C04 /* SceneDelegate.swift */,
-				843B1C572629B806007C7C04 /* ViewController.swift */,
-				843B1C592629B806007C7C04 /* Main.storyboard */,
-				843B1C5C2629B80D007C7C04 /* Assets.xcassets */,
-				843B1C5E2629B80D007C7C04 /* LaunchScreen.storyboard */,
-				843B1C612629B80D007C7C04 /* Info.plist */,
+				843B1C95262C8019007C7C04 /* Model */,
+				843B1C94262C800B007C7C04 /* View */,
+				843B1C93262C7FF6007C7C04 /* Controller */,
+				843B1C6C2629BA15007C7C04 /* Application */,
+				843B1C6B2629B9F5007C7C04 /* Resource */,
 			);
 			path = TestTaskLeroyMerlin;
+			sourceTree = "<group>";
+		};
+		843B1C6B2629B9F5007C7C04 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				843B1C5C2629B80D007C7C04 /* Assets.xcassets */,
+				843B1C612629B80D007C7C04 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		843B1C6C2629BA15007C7C04 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				843B1C6E2629BA3D007C7C04 /* Controller */,
+				843B1C6D2629BA1C007C7C04 /* View */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		843B1C6D2629BA1C007C7C04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				843B1C5E2629B80D007C7C04 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		843B1C6E2629BA3D007C7C04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				843B1C552629B806007C7C04 /* SceneDelegate.swift */,
+				843B1C532629B806007C7C04 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		843B1C93262C7FF6007C7C04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				843B1C7E2629C152007C7C04 /* MainViewController.swift */,
+				843B1C792629BD2C007C7C04 /* MainTabBarTableViewController.swift */,
+				843B1C572629B806007C7C04 /* TestViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		843B1C94262C800B007C7C04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				843B1C9E262D6F6B007C7C04 /* BestPriceViewCell.swift */,
+				843B1C9F262D6F6B007C7C04 /* BestPriceViewCell.xib */,
+				843B1CA5262D9CF0007C7C04 /* CatalogViewCell.swift */,
+				843B1CA6262D9CF0007C7C04 /* CatalogViewCell.xib */,
+				843B1CAA262DA3F2007C7C04 /* SectionHeaderView.swift */,
+				843B1CB2262E15FC007C7C04 /* SearchCollectionViewCell.swift */,
+				843B1CB3262E15FC007C7C04 /* SearchCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		843B1C95262C8019007C7C04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				843B1C96262C8030007C7C04 /* SectionModel.swift */,
+				843B1C9B262C8132007C7C04 /* ItemModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,10 +213,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843B1CB5262E15FC007C7C04 /* SearchCollectionViewCell.xib in Resources */,
+				843B1CA1262D6F6B007C7C04 /* BestPriceViewCell.xib in Resources */,
 				843B1C692629B891007C7C04 /* .gitignore in Resources */,
 				843B1C602629B80D007C7C04 /* LaunchScreen.storyboard in Resources */,
 				843B1C5D2629B80D007C7C04 /* Assets.xcassets in Resources */,
-				843B1C5B2629B806007C7C04 /* Main.storyboard in Resources */,
+				843B1CA8262D9CF0007C7C04 /* CatalogViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,23 +229,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843B1C582629B806007C7C04 /* ViewController.swift in Sources */,
+				843B1CA7262D9CF0007C7C04 /* CatalogViewCell.swift in Sources */,
+				843B1C97262C8030007C7C04 /* SectionModel.swift in Sources */,
+				843B1CB4262E15FC007C7C04 /* SearchCollectionViewCell.swift in Sources */,
+				843B1CAB262DA3F2007C7C04 /* SectionHeaderView.swift in Sources */,
+				843B1C582629B806007C7C04 /* TestViewController.swift in Sources */,
+				843B1CA0262D6F6B007C7C04 /* BestPriceViewCell.swift in Sources */,
 				843B1C542629B806007C7C04 /* AppDelegate.swift in Sources */,
+				843B1C7A2629BD2C007C7C04 /* MainTabBarTableViewController.swift in Sources */,
 				843B1C562629B806007C7C04 /* SceneDelegate.swift in Sources */,
+				843B1C7F2629C152007C7C04 /* MainViewController.swift in Sources */,
+				843B1C9C262C8132007C7C04 /* ItemModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		843B1C592629B806007C7C04 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				843B1C5A2629B806007C7C04 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		843B1C5E2629B80D007C7C04 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -220,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,7 +380,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PQ8675BM6;
-				INFOPLIST_FILE = TestTaskLeroyMerlin/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TestTaskLeroyMerlin/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +399,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PQ8675BM6;
-				INFOPLIST_FILE = TestTaskLeroyMerlin/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TestTaskLeroyMerlin/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
