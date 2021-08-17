@@ -100,8 +100,8 @@
 		843B1C6C2629BA15007C7C04 /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				843B1C6E2629BA3D007C7C04 /* Controller */,
 				843B1C6D2629BA1C007C7C04 /* View */,
+				843B1C6E2629BA3D007C7C04 /* Controller */,
 			);
 			path = Application;
 			sourceTree = "<group>";
